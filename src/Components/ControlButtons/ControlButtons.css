@@ -1,0 +1,34 @@
+.Control-Buttons {
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-grp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10%;
+}
+
+.btn {
+  font-family: Verdana, Geneva, Tahoma, sans-serifr;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  border: 2px solid #e42a2a;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  color: #f5f5f5;
+}
+
+.btn-one {
+  background-color: #e42a2a;
+}
+
