@@ -1,10 +1,9 @@
 .Control-Buttons {
-  height: 100%;
-  width: 100%;
-  box-sizing: border-box;
-  display: flex;
+  display: grid;
   align-items: center;
   justify-content: center;
+  /*background-color: aqua;*/
+  margin-top: 10rem;
 }
 
 .btn-grp {
@@ -16,14 +15,13 @@
 
 .btn {
   font-family: Verdana, Geneva, Tahoma, sans-serifr;
-  width: 100%;
+  width: 5rem;
   height: 100%;
-  border-radius: 10px;
+  border-radius: 7px;
   padding: 10px;
-  display: flex;
   border: 2px solid #e42a2a;
   justify-content: center;
-  align-items: center;
+  text-align: center;
   cursor: pointer;
   color: #f5f5f5;
 }
@@ -31,4 +29,3 @@
 .btn-one {
   background-color: #e42a2a;
 }
-
